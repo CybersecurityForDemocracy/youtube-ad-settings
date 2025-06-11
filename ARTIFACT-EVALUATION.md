@@ -8,7 +8,7 @@ Requested Badge: **Available**
 
 ## Description
 This artifact contains the following:
-1. The labeled ad dataset
+1. The labeled ad dataset as a CSV file (30,237 rows, 4.23MB)
 2. The codebook and a description of the labeling methodology
 
 ### Security/Privacy Issues and Ethical Concerns
@@ -27,7 +27,7 @@ No software requirements.
 This artifact does not reproduce the analysis in its entirety. 
 
 ## Environment 
-Please see the subdirectory README files for details on setup.
+No environment setup needed.
 
 ### Accessibility
 The artifacts can be accessed at this [link](https://github.com/CybersecurityForDemocracy/youtube-ad-settings).

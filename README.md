@@ -9,7 +9,7 @@ Through experiments where emulated users with different ad privacy settings watc
 ## Labeled Ads Dataset
 The `labeled_ads` folder contains the dataset in CSV format, accompanied by a PDF codebook and a description of the labeling methodology (both also included in the paper).
 
-The dataset contains 30,237 unique YouTube video ads, each labeled with a binary indicator of whether it was considered predatory. A README file is included to explain the dataset columns.
+The dataset contains 30,237 unique YouTube video ads (4.23MB), each labeled with a binary indicator of whether it was considered predatory. A README file is included to explain the dataset columns.
 
 ## Contact
 If you publish work using the data in this repository, please cite the paper as follows:

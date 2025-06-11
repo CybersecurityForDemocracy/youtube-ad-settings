@@ -4,7 +4,7 @@
 
 The dataset is `labeled_ads.csv`. The codebook and labeling methodology is in `PETS25_codebook.pdf`.
 
-The dataset contains 30,237 unique YouTube video ads. All rows are guaranteed to have non-null values for `preroll_ad_id`, `preroll_ad_video_url`, and `is_scam`. Other fields may contain nulls.
+The dataset contains 30,237 unique YouTube video ads (4.23MB). All rows are guaranteed to have non-null values for `preroll_ad_id`, `preroll_ad_video_url`, and `is_scam`. Other fields may contain nulls.
 
 | Column Name              | Description                                                                                         |
 |--------------------------|-----------------------------------------------------------------------------------------------------|
