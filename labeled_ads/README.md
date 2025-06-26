@@ -4,7 +4,7 @@
 
 The dataset is `labeled_ads.csv`. The codebook and labeling methodology is in `PETS25_codebook.pdf`.
 
-The dataset contains 30,237 unique YouTube video ads (4.23MB). All rows are guaranteed to have non-null values for `preroll_ad_id`, `preroll_ad_video_url`, and `is_scam`. Other fields may contain nulls.
+The dataset contains 30,237 unique YouTube video ads (4.23MB). All rows are guaranteed to have non-null values for `preroll_ad_id`, `preroll_ad_video_url`, and `is_scam`. Other columns may contain nulls.
 
 | Column Name              | Description                                                                                         |
 |--------------------------|-----------------------------------------------------------------------------------------------------|
@@ -15,7 +15,7 @@ The dataset contains 30,237 unique YouTube video ads (4.23MB). All rows are guar
 | `preroll_ad_advertiser`  | The advertiser's name as shown in the "About this advertiser" iframe.                               |
 | `preroll_ad_topic`       | The topic category of the ad, collected via the "About this advertiser" iframe.                     |
 | `preroll_ad_location`    | The advertiser's registered location, collected via the "About this advertiser" iframe.             |
-| `tag`                    | Topic category label assigned during manual annotation (e.g., "Games", "News").                     |
+| `tag`                    | Topic label assigned during manual annotation (e.g., "Games", "News"). (Only a subset of ads have a label, as `preroll_ad_topic` was easier and faster to collect.)                  |
 | `is_scam`                | Binary label indicating whether the ad is predatory (`1`) or not (`0`), based on manual annotation. |
 | `Notes`                  | Additional comments or reasoning for the assigned label.                                            |
 
