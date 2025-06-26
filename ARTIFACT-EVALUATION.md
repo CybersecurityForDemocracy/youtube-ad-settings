@@ -30,4 +30,4 @@ This artifact does not reproduce the analysis in its entirety.
 No environment setup needed.
 
 ### Accessibility
-The artifacts can be accessed at this [link](https://github.com/CybersecurityForDemocracy/youtube-ad-settings).
+The artifacts can be accessed at this [link](https://github.com/CybersecurityForDemocracy/youtube-ad-settings/tree/artifact-eval).
